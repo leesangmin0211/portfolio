@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="ko">
+    <title>테트리스</title>    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/tetris.css" type="text/css">
+    <script type="text/javascript" src="js/tetris.js">  
+    </script>
+</head>
+ 
+<body onload=setting()>
+    <font size=1><a href="tetris.html">돌아가기</a></font><br>
+    <div style="font-size:100px">
+    <font style="color:red">T</font>
+    <font style="color:blue">E</font>
+    <font style="color:cyan">2</font>
+    <font style="color:brown">R</font>
+    <font style="color:orange">I</font>
+    <font style="color:gray">S</font>
+    </div>
+        <div id="wrap" style="margin:0 auto; width:800px">
+        
+                <div id="state" style="float:left; margin:0 auto; width:200px">
+                    <div id="storeblockdisplay" style="margin:0 auto; width:90px"></div>
+                    <div id="conuntstoring"></div>
+                    <div id='isghostmode'></div>
+                </div>
+        
+                <div id="tableForgame" style="float:left; width:350px"></div>
+        
+                <div id="nextBlock" style="float:left; width:90px "></div>
+                <div id="information" style="float:left; width:150px">
+                    <div id="lineOrPoint" style="font-size:40px;text-align: center"></div>
+                    <div id="time" style="text-align: center;">
+                        <table style="table-layout:fixed; width:120px; margin:0 auto">    
+                        <tr id='timername'>
+                            <td id='mt' style="width:40px"></td>
+                            <td id='st' style="width:40px"></td>
+                            <td id='mst' style="width:40px"></td>
+                        </tr>
+                        <tr id='timedata'>
+                            <td id='m' style="width:40px"></td>
+                            <td id='s' style="width:40px"></td>
+                            <td id='ms' style="width:40px"></td>
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+    
+        </div>
+        <div id=select style="margin:0 auto; width:500px"></div>
+    <div style="font-size: 10px;  text-transform: uppercase;">
+    Control<br>UP : ROT<br>SPACE : DROP<br>SHIFT : HOLD<br>G : GHOST MODE ON, OFF
+    </div>
+</body>
+ 
+</html>

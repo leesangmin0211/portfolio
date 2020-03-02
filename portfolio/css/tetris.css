@@ -1,0 +1,81 @@
+body {
+    background-color:black;
+    text-align: center;
+    color:white;
+}
+#messageBox{
+    position:absolute;
+    left: 50%;
+    top:350px;
+}
+#gametable td{
+        font-size: 1px; 
+        width: 20px;
+        height: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #737373;
+        background-color: #333;
+}
+ 
+#gametable {
+    border-width: 0px;
+    border-collapse: collapse;
+}
+#nextblocktable0 {
+    border-style: solid;
+    border-color:red;
+    border-collapse: collapse;
+}
+#storeblocktable{
+    border-style: solid;
+    border-color:black;
+    border-collapse: collapse;
+}
+#settingTable{
+    table-layout:fixed;
+    width:500px;
+    background-color:black;
+    color:white;
+    border-style: solid;
+    border-color:black;
+    border-collapse: collapse;
+}
+#settingSelect{
+    font-size: 20px;
+    font-weight:bold;
+    color:green;
+}
+#conuntstoring{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    height: 100px;
+}
+.subtablecell{
+        font-size: 1px;
+        width: 15px;
+        height: 15px;
+        border-width: 0px;
+        background-color: #eee;
+}
+.subnextblock{
+    border-style: solid;
+    border-color:white;
+    border-collapse: collapse;
+}
+.settingcell{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color:black;
+    border-collapse: collapse;
+}
+.Line {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

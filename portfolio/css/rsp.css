@@ -1,0 +1,120 @@
+
+header{
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 700px; 
+    height: 100px;
+    text-align: center;
+    background-color: #99CCFF;
+}
+header > h1{
+    margin: 0;
+    line-height: 100px;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 60px;
+}
+h2{
+    line-height: 50px;
+    margin: 0px;
+}
+button{
+    font-size: 15px;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+}
+.choice{
+    color: #FF6666;
+    text-align: center;
+    padding: 0;
+    width: 700px; 
+    height: 300px;
+    margin: 0 auto;
+    background-color: #C7DFF7;
+}
+.hidden{
+    display: none;
+}
+.result{
+    color: #FF6666;
+    text-align: center;
+    padding: 0;
+    width: 700px; 
+    height: 300px;
+    margin: 0 auto;
+    background-color: #C7DFF7;
+}
+.status{
+    color: white;
+    text-align: center;
+    padding: 0;
+    width: 700px; 
+    height: 150px;
+    margin: 0 auto;
+    background-color: #99CCFF;
+}
+.rcpContainer{
+    display:inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(140, 140, 140, .5);
+}
+.comMoveImg{
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+.playerMoveImg{
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+.moveContainer{
+    display:inline-block;
+    width: 300px;
+    height: 220px;
+    margin: 10px;
+}
+.moveText{
+    margin: 10px 0 0 0 ;
+    font-size: 20px;
+}
+.scoreContainer{
+    width: 200px;
+    height: 70px;
+    margin: 0 10px 0 10px;
+    background-color: rgba(225, 225, 225, .9);
+    display:inline-block;
+}
+.score{
+    margin: 0;
+    line-height: 70px;
+    font-size: 30px;
+}
+.scissorsImg{
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    content:url(../img/rsp/scissors.png);
+}
+.rockImg{
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    content:url(../img/rsp/rock.png);
+}
+.paperImg{
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    content:url(../img/rsp/papper.png);
+}
+#comScore{
+    color: #54C7FF;
+}
+#playerScore{
+    color: #FFFF00;
+}

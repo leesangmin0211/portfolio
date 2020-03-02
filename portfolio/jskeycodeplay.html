@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>키 코드 찾기</title>
+        <meta charset="utf-8">
+        <script src="js/jskeycode.js" type="text/javascript"></script>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class="body">
+                <br><br>
+                <font size=1><a href="jskeycode.html">돌아가기</a></font><br>
+                <h1>JavaScript Event KeyCode Fond Page</h1>
+                <p>찾고싶은 키 : <input id="input" type="text" value=""></p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>onKeyDown</th>
+                            <th>onKeyPress</th>
+                            <th>onKeyUp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>event.keyCode</th>
+                            <td id="onkeydown_keycode">''</td>
+                            <td id="onkeypress_keycode">''</td>
+                            <td id="onkeyup_keycode">''</td>
+                        </tr>
+                        <tr>
+                            <th>event.charCode</th>
+                            <td id="onkeydown_charcode">''</td>
+                            <td id="onkeypress_charcode">''</td>
+                            <td id="onkeyup_charcode">''</td>
+                        </tr>
+                        <tr>
+                            <th>event.which</th>
+                            <td id="onkeydown_which">''</td>
+                            <td id="onkeypress_which">''</td>
+                            <td id="onkeyup_which">''</td>
+                        </tr>
+                    </tbody>
+                </table>
+        <br><br>
+                <footer>Copyright &copy; making sangminLee</footer>
+            </div>
+        </center>
+        <script>
+    window.onload=focusInput;
+	document.getElementById("input").onkeydown=processKeyDown;
+	document.getElementById("input").onkeypress=processKeyPress;
+	document.getElementById("input").onkeyup=processKeyUp;</script>
+    </body>
+</html>
